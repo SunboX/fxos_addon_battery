@@ -19,7 +19,7 @@
   function initialize() {
     
     // Get the status bar bar
-    statusBarEl = document.getElementById('statusbar-maximized');
+    statusBarEl = document.getElementById('statusbar-maximized') || document.getElementById('statusbar-icons');
 
     // If there is a old one, remove it first
     containerEl = document.getElementById('statusbar-battery');
